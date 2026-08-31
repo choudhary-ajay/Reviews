@@ -10,7 +10,7 @@ Users can:
 - Store feedback permanently in MongoDB
 
 #Url
-this webpage is deployed on Vercel and backend of this project is 
-deployed on Render
-[frontend url](https://reviews-nine-plum.vercel.app/)
-[backend url](https://reviews-nzvt.onrender.com/)
+- this webpage is deployed on Vercel and backend of this project is 
+- deployed on Render
+- [frontend url](https://reviews-nine-plum.vercel.app/)
+- [backend url](https://reviews-nzvt.onrender.com/)
