@@ -21,7 +21,7 @@ function App() {
 
     const getreviews=async ()=>{
         try{
-            const response=await axios.get(`${backendurl}api/review/get`)
+            const response=await axios.get(`${backendurl}/api/review/get`)
             console.log(response.data.reviews)
             setReviews(response.data.reviews)
         }catch(error){

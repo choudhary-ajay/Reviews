@@ -30,7 +30,7 @@ const ReviwForm = ({getreviews}) => {
 
 
     try{
-        const response=await axios.post(`${backendurl}api/review/add`,{rating,review,name})
+        const response=await axios.post(`${backendurl}/api/review/add`,{rating,review,name})
         console.log(response.data)
         getreviews()
 
