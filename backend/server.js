@@ -16,7 +16,7 @@ const connectdb=async ()=>{
         console.log("DB connected")
     })
 
-    await mongoose.connect(`${process.env.MONGODB_URI}/reviews`)
+    await mongoose.connect(`${process.env.MONGODB_URI}`)
 }
 connectdb()
 
